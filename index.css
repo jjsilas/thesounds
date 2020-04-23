@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /*height: 300px;*/
+    background-color:#aaa;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    /*content: "";*/
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(51, 92, 51);
+    color: rgb(174, 173, 173);
+    text-align: center;
+ }
