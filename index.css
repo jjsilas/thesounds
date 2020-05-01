@@ -5,7 +5,7 @@
   /* Create two equal columns that floats next to each other */
   .column {
     float: left;
-    width: 50%;
+    width: 25%;
     padding: 10px;
     /*height: 300px;*/
     background-color:#aaa;
@@ -17,6 +17,15 @@
     display: table;
     clear: both;
   }
+
+.minimage {
+  width: 80%;
+}
+
+
+#player {
+  width: 50%;
+}
 
   .footer {
     left: 0;
