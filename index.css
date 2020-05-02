@@ -1,31 +1,27 @@
 * {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    /*height: 300px;*/
-    background-color:#aaa;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    /*content: "";*/
-    display: table;
-    clear: both;
-  }
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  /*height: 300px;*/
+border: black;
+border-style: solid;
+border-width: thin;
+padding: 3%;
+margin: 2%;
+}
+
 
 .minimage {
-  width: 80%;
+width: 80%;
 }
-
 
 #player {
-  width: 50%;
+  width: ß90%;
 }
+
 
   .footer {
     left: 0;
