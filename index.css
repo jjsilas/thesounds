@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+.topSection {
+background-color: rgb(114, 114, 114);
+background-size:  100%;
+
+}
+
 .column {
   float: left;
   width: 20%;
@@ -22,12 +28,10 @@ width: 80%;
   width: 90%;
 }
 
-
-  .footer {
-    left: 0;
+#footer {
+  left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(51, 92, 51);
     color: rgb(174, 173, 173);
     text-align: center;
- }
+}
