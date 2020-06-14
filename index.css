@@ -8,6 +8,20 @@ background-size:  100%;
 
 }
 
+/* center header image and make it 30% of the max on default viewport */
+.rfslogoheader {
+  display: block;
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.h1Description {
+  display: block;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .column {
   float: left;
   width: 20%;
@@ -24,14 +38,25 @@ margin: 2%;
 width: 80%;
 }
 
+.downloadbtn {
+  width: 80%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 #player {
   width: 90%;
 }
 
-#footer {
+.footer {
+  position: fixed;
   left: 0;
-    bottom: 0;
-    width: 100%;
-    color: rgb(174, 173, 173);
-    text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: rgb(174, 173, 173);
+  text-align: center;
+  height: 50px;
+  line-height: .3;
+  margin-top: 2px;
 }
